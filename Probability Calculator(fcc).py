@@ -2,7 +2,7 @@ import random
 import copy
 
 class Hat:
-    def __init__(self, **balls):
+    def __init__(self, **balls): 
         self.balls = balls
         self.contents = []
         # the self.contents list will be used later in the other methods
